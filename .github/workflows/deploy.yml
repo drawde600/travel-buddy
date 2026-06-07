@@ -28,9 +28,11 @@ jobs:
 
       - name: Build
         run: |
-          npm run build
+          npx expo export
           # Create .nojekyll file to prevent Jekyll processing
           touch dist/.nojekyll
+          # Fix paths for GitHub Pages
+          sed -i 's|src="/_expo/|src="/travel-buddy/_expo/|g' dist/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
