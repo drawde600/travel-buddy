@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Travel Buddy",
+    "slug": "travel-buddy",
+    "version": "0.2.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "web",
+      "ios",
+      "android"
+    ],
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
