@@ -2,7 +2,7 @@
   "name": "travel-buddy",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://drawde600.github.io/travel-buddy/",
+  "homepage": "https://drawde600.github.io/",
   "main": "expo/AppEntry",
   "scripts": {
     "start": "node scripts/start-expo.js",
