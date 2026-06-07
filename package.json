@@ -9,7 +9,7 @@
     "web": "node scripts/start-expo.js --web",
     "typecheck": "tsc --noEmit",
     "build": "expo export:web",
-    "deploy": "gh-pages -d web-build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@expo/metro-runtime": "~6.0.0",
