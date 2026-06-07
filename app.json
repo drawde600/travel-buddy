@@ -11,8 +11,7 @@
       "android"
     ],
     "web": {
-      "bundler": "metro",
-      "publicPath": "/travel-buddy/"
+      "bundler": "metro"
     }
   }
 }
