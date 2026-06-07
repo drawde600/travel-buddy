@@ -2,11 +2,14 @@
   "name": "travel-buddy",
   "version": "0.2.0",
   "private": true,
+  "homepage": "https://drawde600.github.io/travel-buddy/",
   "main": "expo/AppEntry",
   "scripts": {
     "start": "node scripts/start-expo.js",
     "web": "node scripts/start-expo.js --web",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build": "expo export:web",
+    "deploy": "gh-pages -d web-build"
   },
   "dependencies": {
     "@expo/metro-runtime": "~6.0.0",
@@ -19,6 +22,7 @@
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~19.1.0",
+    "gh-pages": "^6.3.0",
     "typescript": "^5.9.2"
   }
 }
